@@ -141,39 +141,48 @@ ul{
 .projectSection{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr) ;
-	grid-template-rows: 1fr 1fr;
+	/* grid-template-rows: 1fr 1fr; */
 	width: 80%;
 }
 
 .proj{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin: 10px;
 	background-color: white;
 	border: 5px solid white;
 	border-radius: 20px;
 }
 
-.imgProj1{
-	grid-column: 1 / span 2;
-	grid-row: 1;
-}
-
 .proj:hover{
 	border: 5px solid blue 
 }
 
+.imgContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imgProj1{
+	grid-column: 1 ;
+	grid-row: 1;
+}
+
 .imgProj2{
-	grid-column: 3 / span 2;
+	grid-column: 2 ;
 	grid-row: 1;
 }
 
 .imgProj3{
-	grid-column: 1 / span 2;
-	grid-row: 2;
+	grid-column: 3;
+	/* grid-row: 2; */
 }
 
 .imgProj4{
-	grid-column: 3 / span 2;
-	grid-row: 2;
+	grid-column: 4 ;
+	/* grid-row: 2; */
 }
 
 .formSection{

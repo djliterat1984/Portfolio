@@ -55,7 +55,7 @@ ul{
 /* MAIN SECTION */
 
 .mainContainer{
-	background-image: url(./resources/headerback.jpg);
+	background-image: url(./images/headerback.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
